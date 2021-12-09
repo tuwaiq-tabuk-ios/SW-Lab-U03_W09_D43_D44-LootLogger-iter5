@@ -25,3 +25,7 @@ Fifth and last iteration of LootLogger App where the user can add photos to the 
 
 ## Deadline 
 Thursday 9th December 9:15 am
+
+
+https://user-images.githubusercontent.com/91871792/145346629-d2aabd62-be1a-4052-987f-c36d021dcae8.mp4
+

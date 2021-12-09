@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306A5F97274F84C00099AE79 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A5F96274F84C00099AE79 /* DetailViewController.swift */; };
+		30755F522743A98C002996A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30755F512743A98C002996A1 /* AppDelegate.swift */; };
+		30755F542743A98C002996A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30755F532743A98C002996A1 /* SceneDelegate.swift */; };
+		30755F562743A98C002996A1 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30755F552743A98C002996A1 /* ItemsViewController.swift */; };
+		30755F592743A98C002996A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30755F572743A98C002996A1 /* Main.storyboard */; };
+		30755F5B2743A98D002996A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30755F5A2743A98D002996A1 /* Assets.xcassets */; };
+		30755F5E2743A98D002996A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30755F5C2743A98D002996A1 /* LaunchScreen.storyboard */; };
+		30755F672743AACA002996A1 /* itemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30755F662743AACA002996A1 /* itemStore.swift */; };
+		30755F692743AAE8002996A1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30755F682743AAE8002996A1 /* Item.swift */; };
+		30BFA26A274B73760023A6E1 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BFA269274B73760023A6E1 /* itemCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		306A5F96274F84C00099AE79 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		30755F4E2743A98C002996A1 /* LootLogger-ATHEER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LootLogger-ATHEER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30755F512743A98C002996A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30755F532743A98C002996A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30755F552743A98C002996A1 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		30755F582743A98C002996A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30755F5A2743A98D002996A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30755F5D2743A98D002996A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30755F5F2743A98D002996A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30755F662743AACA002996A1 /* itemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemStore.swift; sourceTree = "<group>"; };
+		30755F682743AAE8002996A1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		30BFA269274B73760023A6E1 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30755F4B2743A98C002996A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30755F452743A98C002996A1 = {
+			isa = PBXGroup;
+			children = (
+				30755F502743A98C002996A1 /* LootLogger-ATHEER */,
+				30755F4F2743A98C002996A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30755F4F2743A98C002996A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30755F4E2743A98C002996A1 /* LootLogger-ATHEER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30755F502743A98C002996A1 /* LootLogger-ATHEER */ = {
+			isa = PBXGroup;
+			children = (
+				30755F652743AA70002996A1 /* Model */,
+				30755F6A2743B638002996A1 /* Controller */,
+				30755F6B2743B665002996A1 /* View */,
+				30755F6C2743B683002996A1 /* Support */,
+				30755F5F2743A98D002996A1 /* Info.plist */,
+			);
+			path = "LootLogger-ATHEER";
+			sourceTree = "<group>";
+		};
+		30755F652743AA70002996A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30BFA269274B73760023A6E1 /* itemCell.swift */,
+				30755F662743AACA002996A1 /* itemStore.swift */,
+				30755F682743AAE8002996A1 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30755F6A2743B638002996A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30755F552743A98C002996A1 /* ItemsViewController.swift */,
+				306A5F96274F84C00099AE79 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30755F6B2743B665002996A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30755F572743A98C002996A1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30755F6C2743B683002996A1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				30755F512743A98C002996A1 /* AppDelegate.swift */,
+				30755F532743A98C002996A1 /* SceneDelegate.swift */,
+				30755F5A2743A98D002996A1 /* Assets.xcassets */,
+				30755F5C2743A98D002996A1 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30755F4D2743A98C002996A1 /* LootLogger-ATHEER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30755F622743A98D002996A1 /* Build configuration list for PBXNativeTarget "LootLogger-ATHEER" */;
+			buildPhases = (
+				30755F4A2743A98C002996A1 /* Sources */,
+				30755F4B2743A98C002996A1 /* Frameworks */,
+				30755F4C2743A98C002996A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LootLogger-ATHEER";
+			productName = "LootLogger-ATHEER";
+			productReference = 30755F4E2743A98C002996A1 /* LootLogger-ATHEER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30755F462743A98C002996A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					30755F4D2743A98C002996A1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 30755F492743A98C002996A1 /* Build configuration list for PBXProject "LootLogger-ATHEER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30755F452743A98C002996A1;
+			productRefGroup = 30755F4F2743A98C002996A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30755F4D2743A98C002996A1 /* LootLogger-ATHEER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30755F4C2743A98C002996A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30755F5E2743A98D002996A1 /* LaunchScreen.storyboard in Resources */,
+				30755F5B2743A98D002996A1 /* Assets.xcassets in Resources */,
+				30755F592743A98C002996A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30755F4A2743A98C002996A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30755F692743AAE8002996A1 /* Item.swift in Sources */,
+				30755F562743A98C002996A1 /* ItemsViewController.swift in Sources */,
+				30755F522743A98C002996A1 /* AppDelegate.swift in Sources */,
+				30755F672743AACA002996A1 /* itemStore.swift in Sources */,
+				30BFA26A274B73760023A6E1 /* itemCell.swift in Sources */,
+				30755F542743A98C002996A1 /* SceneDelegate.swift in Sources */,
+				306A5F97274F84C00099AE79 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30755F572743A98C002996A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30755F582743A98C002996A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30755F5C2743A98D002996A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30755F5D2743A98D002996A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30755F602743A98D002996A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30755F612743A98D002996A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30755F632743A98D002996A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QRT7ZW25M;
+				INFOPLIST_FILE = "LootLogger-ATHEER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atheer.LootLogger-ATHEER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30755F642743A98D002996A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QRT7ZW25M;
+				INFOPLIST_FILE = "LootLogger-ATHEER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atheer.LootLogger-ATHEER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30755F492743A98C002996A1 /* Build configuration list for PBXProject "LootLogger-ATHEER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30755F602743A98D002996A1 /* Debug */,
+				30755F612743A98D002996A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30755F622743A98D002996A1 /* Build configuration list for PBXNativeTarget "LootLogger-ATHEER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30755F632743A98D002996A1 /* Debug */,
+				30755F642743A98D002996A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30755F462743A98C002996A1 /* Project object */;
+}

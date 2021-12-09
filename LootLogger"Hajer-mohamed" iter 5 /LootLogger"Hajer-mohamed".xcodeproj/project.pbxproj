@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0714B3BA274D10EA00013204 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714B3B9274D10EA00013204 /* ItemCell.swift */; };
+		0762450F2742347F006E28C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762450E2742347F006E28C0 /* AppDelegate.swift */; };
+		076245112742347F006E28C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076245102742347F006E28C0 /* SceneDelegate.swift */; };
+		076245162742347F006E28C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076245142742347F006E28C0 /* Main.storyboard */; };
+		0762451827423480006E28C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0762451727423480006E28C0 /* Assets.xcassets */; };
+		0762451B27423480006E28C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0762451927423480006E28C0 /* LaunchScreen.storyboard */; };
+		07624523274235FF006E28C0 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07624522274235FF006E28C0 /* ItemsViewController.swift */; };
+		076245252742386A006E28C0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076245242742386A006E28C0 /* Item.swift */; };
+		0762452727423D29006E28C0 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762452627423D29006E28C0 /* ItemStore.swift */; };
+		0797690C275E338100D440A6 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797690B275E338100D440A6 /* ImageStore.swift */; };
+		079F631A274E66F300CD1678 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079F6319274E66F300CD1678 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0714B3B9274D10EA00013204 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		0762450B2742347F006E28C0 /* LootLogger"Hajer-mohamed".app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LootLogger\"Hajer-mohamed\".app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0762450E2742347F006E28C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		076245102742347F006E28C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		076245152742347F006E28C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0762451727423480006E28C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0762451A27423480006E28C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0762451C27423480006E28C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07624522274235FF006E28C0 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		076245242742386A006E28C0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0762452627423D29006E28C0 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		0797690B275E338100D440A6 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		079F6319274E66F300CD1678 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076245082742347F006E28C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076245022742347F006E28C0 = {
+			isa = PBXGroup;
+			children = (
+				0762450D2742347F006E28C0 /* LootLogger"Hajer-mohamed" */,
+				0762450C2742347F006E28C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0762450C2742347F006E28C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0762450B2742347F006E28C0 /* LootLogger"Hajer-mohamed".app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0762450D2742347F006E28C0 /* LootLogger"Hajer-mohamed" */ = {
+			isa = PBXGroup;
+			children = (
+				07B6D2562743D6E300C6F6EF /* Model */,
+				07B6D2552743D6C400C6F6EF /* Controller */,
+				07B6D2542743D6B100C6F6EF /* Support */,
+				07B6D2532743D6A500C6F6EF /* View */,
+				0762451C27423480006E28C0 /* Info.plist */,
+			);
+			path = "LootLogger\"Hajer-mohamed\"";
+			sourceTree = "<group>";
+		};
+		07B6D2532743D6A500C6F6EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				076245142742347F006E28C0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07B6D2542743D6B100C6F6EF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0762450E2742347F006E28C0 /* AppDelegate.swift */,
+				0762451727423480006E28C0 /* Assets.xcassets */,
+				076245102742347F006E28C0 /* SceneDelegate.swift */,
+				0762451927423480006E28C0 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		07B6D2552743D6C400C6F6EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07624522274235FF006E28C0 /* ItemsViewController.swift */,
+				079F6319274E66F300CD1678 /* DetailViewController.swift */,
+				0797690B275E338100D440A6 /* ImageStore.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07B6D2562743D6E300C6F6EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0714B3B9274D10EA00013204 /* ItemCell.swift */,
+				076245242742386A006E28C0 /* Item.swift */,
+				0762452627423D29006E28C0 /* ItemStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0762450A2742347F006E28C0 /* LootLogger"Hajer-mohamed" */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0762451F27423480006E28C0 /* Build configuration list for PBXNativeTarget "LootLogger"Hajer-mohamed"" */;
+			buildPhases = (
+				076245072742347F006E28C0 /* Sources */,
+				076245082742347F006E28C0 /* Frameworks */,
+				076245092742347F006E28C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LootLogger\"Hajer-mohamed\"";
+			productName = "LootLogger\"Hajer-mohamed\"";
+			productReference = 0762450B2742347F006E28C0 /* LootLogger"Hajer-mohamed".app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		076245032742347F006E28C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					0762450A2742347F006E28C0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 076245062742347F006E28C0 /* Build configuration list for PBXProject "LootLogger"Hajer-mohamed"" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 076245022742347F006E28C0;
+			productRefGroup = 0762450C2742347F006E28C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0762450A2742347F006E28C0 /* LootLogger"Hajer-mohamed" */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		076245092742347F006E28C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0762451B27423480006E28C0 /* LaunchScreen.storyboard in Resources */,
+				0762451827423480006E28C0 /* Assets.xcassets in Resources */,
+				076245162742347F006E28C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076245072742347F006E28C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076245252742386A006E28C0 /* Item.swift in Sources */,
+				0762452727423D29006E28C0 /* ItemStore.swift in Sources */,
+				0714B3BA274D10EA00013204 /* ItemCell.swift in Sources */,
+				0797690C275E338100D440A6 /* ImageStore.swift in Sources */,
+				07624523274235FF006E28C0 /* ItemsViewController.swift in Sources */,
+				0762450F2742347F006E28C0 /* AppDelegate.swift in Sources */,
+				076245112742347F006E28C0 /* SceneDelegate.swift in Sources */,
+				079F631A274E66F300CD1678 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		076245142742347F006E28C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076245152742347F006E28C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0762451927423480006E28C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0762451A27423480006E28C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0762451D27423480006E28C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0762451E27423480006E28C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0762452027423480006E28C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootLogger\"Hajer-mohamed\"/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = " This app uses the camera to associate photos with items.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.LootLogger-Hajer-mohamed-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0762452127423480006E28C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootLogger\"Hajer-mohamed\"/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = " This app uses the camera to associate photos with items.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajer.LootLogger-Hajer-mohamed-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076245062742347F006E28C0 /* Build configuration list for PBXProject "LootLogger"Hajer-mohamed"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0762451D27423480006E28C0 /* Debug */,
+				0762451E27423480006E28C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0762451F27423480006E28C0 /* Build configuration list for PBXNativeTarget "LootLogger"Hajer-mohamed"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0762452027423480006E28C0 /* Debug */,
+				0762452127423480006E28C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 076245032742347F006E28C0 /* Project object */;
+}
